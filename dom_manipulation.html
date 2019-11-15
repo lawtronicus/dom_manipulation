@@ -15,5 +15,37 @@ content.classList.add('content');
 content.textContent = 'This is the glorious text-content!';
 
 container.appendChild(content);
+
+const red_paragraph = document.createElement('p');
+red_paragraph.classList.add('red_paragraph');
+red_paragraph.style.color = 'red';
+red_paragraph.textContent = "Hey, I'm red!";
+
+container.appendChild(red_paragraph);
+
+const blue_header3 = document.createElement("h3");
+blue_header3.classList.add('blue_heade3');
+blue_header3.style.color = 'blue';
+blue_header3.textContent = "I'm a blue h3!";
+
+container.appendChild(blue_header3);
+
+const pink_div = document.createElement("div");
+pink_div.classList.add('pink_div');
+pink_div.style.backgroundColor = 'pink';
+pink_div.style.border = "solid black";
+
+const big_header = document.createElement("h1");
+big_header.textContent = "I'm in a div!";
+
+pink_div.appendChild(big_header);
+
+const little_p = document.createElement("p");
+little_p.textContent = "Me too!";
+
+pink_div.appendChild(little_p);
+
+container.appendChild(pink_div);
+
 </script>
 </html>
